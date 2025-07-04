@@ -20,3 +20,9 @@ df, target_names = load_data()
 model = RandomForestClassifier()
 model.fit(df.iloc[:,:-1], df['species'])
 
+#‌ Streamlit design setting
+st.sidebar.title("Input Features")
+sepal_lenght = st.sidebar.slider("sepal length (cm)", float(df["sepal length (cm)"].min()), float(df["sepal length (cm)"].max()))
+sepal_width = st.sidebar.slider("sepal width (cm)", float(df["sepal width (cm)"].min()), float(df["sepal width (cm)"].max()))
+petal_lenght = st.sidebar.slider("petal length (cm)", float(df["petal length (cm)"].min()), float(df["petal length (cm)"].max()))
+petal_width = st.sidebar.slider("petal width (cm)", float(df["petal width (cm)"].min()), float(df["petal width (cm)"].max()))
