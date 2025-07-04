@@ -49,7 +49,8 @@ The Iris dataset is a classic dataset in machine learning, containing 150 sample
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).  
+You are free to use, modify, and distribute this software under the terms of this license.
 
 ## Acknowledgments
 
