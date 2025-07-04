@@ -24,7 +24,10 @@ A simple and interactive web application built with Streamlit to explore and vis
 
 1. **Clone the repository:**
 
+### RUN
 
+1. streamlit run app.py
+2. open browser and load page "http://localhost:8501/"
 
 The app will open in your browser. You can interact with the dataset and visualizations.
 
